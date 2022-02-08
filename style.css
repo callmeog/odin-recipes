@@ -7,12 +7,31 @@ body {
 * {
     box-sizing: border-box;
 }
+.back-home {
+    display: flex;
+    justify-content: space-between;
+}
 
+.a  {
+    right: 10px;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+}
 
-h1,h2 {
+.home:hover {
+    text-decoration: underline;
+}
+
+h1 {
     font-family: 'Rowdies', cursive;
     margin-left: 20px;
     color: orangered;
+}
+
+h2,h3 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-page {
