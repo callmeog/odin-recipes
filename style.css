@@ -9,12 +9,6 @@ body {
 }
 
 
-.hero-heading {
-    display: flex;
-    margin: 1em 0;
-}
-
-
 h1,h2 {
     font-family: 'Rowdies', cursive;
     margin-left: 20px;
@@ -28,6 +22,20 @@ h1,h2 {
 .hero-page img {
     margin-left: 10em;
     width: 50%;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-right: 0%;
+        width: 50%;
+    }
 }
 
 a {
@@ -56,6 +64,11 @@ a {
      margin: 1em;
  }
 
+ img {
+     border-radius: 3px;
+     box-shadow: 10px 2px 5px 2px lightgrey;
+ }
+
  p {
    max-width: 35em;
    margin: 1em;
@@ -71,6 +84,15 @@ a {
 
     p {
         max-width: 47em;
+    }
+
+    .hero-page {
+        display: block;
+    }
+
+    img {
+        border-radius: 0;
+        box-shadow: none;
     }
 }
 
