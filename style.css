@@ -10,6 +10,7 @@ body {
 .back-home {
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
 .a  {
@@ -23,6 +24,10 @@ body {
     text-decoration: underline;
 }
 
+.container {
+    padding: 1em;
+}
+
 h1 {
     font-family: 'Rowdies', cursive;
     margin-left: 20px;
@@ -32,6 +37,8 @@ h1 {
 h2,h3 {
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: bold;
 }
 
 .hero-page {
@@ -80,17 +87,14 @@ a {
  .recipe-img {
      width: 60%;
      height: 300px;
-     margin: 1em;
  }
 
  img {
-     border-radius: 3px;
-     box-shadow: 10px 2px 5px 2px lightgrey;
+     border-radius: 4px;
  }
 
  p {
    max-width: 35em;
-   margin: 1em;
 }
 
 
