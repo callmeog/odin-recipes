@@ -66,12 +66,12 @@ h3 {
 @keyframes slidein {
     from {
         margin-right: 100%;
-        width: 100%;
+        width: 120%;
     }
 
     to {
         margin-right: 0%;
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -86,7 +86,6 @@ a {
  }
 
  ul li{
-     list-style: none;
      line-height: 30px;
  }
 
