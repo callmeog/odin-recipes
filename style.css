@@ -49,7 +49,7 @@ h3 {
     display: flex;
 }
 
-.hero-page img {
+.hero-page img{
     margin-left: 10em;
     width: 50%;
     animation-duration: 3s;
@@ -156,15 +156,11 @@ a {
 }
 
 .quote {
-    max-width: 17em;
+    max-width: 20em;
     font-family: monospace;
     font-size: 18px;
+    background: rgb(233, 226, 226);
+    padding: 1em;
 }
 
 
-.footer {
-    background: orangered;
-    padding: 2em;
-    width: 100%;
-    margin-top: 3em;
-}
