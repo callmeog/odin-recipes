@@ -7,16 +7,16 @@ body {
 * {
     box-sizing: border-box;
 }
-.back-home {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
+.a {
+    right: 3px;
+    position: absolute;
+    color: grey;
 }
 
-.a  {
+.a:hover  {
     right: 10px;
-    text-decoration: none;
-    color: blue;
+    text-decoration: underline;
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -155,4 +155,10 @@ a {
     p {
         max-width: 44em;
     }
+}
+
+.quote {
+    max-width: 15em;
+    font-family: monospace;
+    font-size: 18px;
 }
