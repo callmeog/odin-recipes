@@ -7,6 +7,10 @@ body {
 * {
     box-sizing: border-box;
 }
+
+.home {
+    margin-bottom: 2em;
+}
 .a {
     right: 3px;
     position: absolute;
@@ -53,14 +57,13 @@ h3 {
 }
 
 .hero-page a{
-    color: black;
+    color: blue;
 }
 
 .title {
     color: black;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 20px;
 }
 
 @keyframes slidein {
@@ -69,21 +72,17 @@ h3 {
         width: 120%;
     }
 
-    to {
+    /*to {
         margin-right: 0%;
         width: 40%;
-    }
+    }*/
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     line-height: 30px;
  }
 
-
- a:hover {
-    text-decoration: underline;
- }
 
  ul li{
      line-height: 30px;
@@ -157,7 +156,15 @@ a {
 }
 
 .quote {
-    max-width: 15em;
+    max-width: 17em;
     font-family: monospace;
     font-size: 18px;
+}
+
+
+.footer {
+    background: orangered;
+    padding: 2em;
+    width: 100%;
+    margin-top: 3em;
 }
